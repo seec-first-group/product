@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+import temp from '../common/icon/icon'
 Page({
 	data: {
 		list: [{
@@ -98,5 +98,9 @@ Page({
 			})
 		}
 
+	},
+	show(ev){
+		temp.onclick(ev)
+		
 	}
 })

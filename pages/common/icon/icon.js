@@ -5,9 +5,17 @@ Page({
 	onLoad: function(options) {
 
 	},
-	sho(e) {
+	goto(){
+		console.log(1)
+		
+	}
+	
+})
+var temp = {
+	onclick: function (event) {
 		wx.navigateTo({
-			url: "/pages/common/car/car"
+			url: '/pages/common/car/car'
 		})
 	}
-})
+}
+export default temp

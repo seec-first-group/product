@@ -38,4 +38,7 @@
 </view>
 <text class="in_text">技术支持TEL400-0635-993</text>
 <template is="consu"></template>
-<template is="i_icon"></template>
+<view class="" bindtap="show">
+	<template is="i_icon"></template>
+</view>
+

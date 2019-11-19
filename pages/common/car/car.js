@@ -1,6 +1,7 @@
 // pages/common/car/car.js
 Page({
 	data: {
+		select_all: false,
 		carts: [{
 				id: 1,
 				title: '一对一套餐',
@@ -24,17 +25,49 @@ Page({
 	onLoad: function(options) {
 
 	},
-	all() {
-		
-		var carts = this.data.carts;
-		var num = 0;
-		for (let i = 0; i < carts.length; i++) {
-			if(carts[i].selected){
-				num+=carts[i].price*carts[i].num
+	all(e) {
+		var arr=this.data.carts
+		var price=0
+		this.setData({
+			select_all:!this.data.select_all
+		})
+		if(this.data.select_all){
+			for (let i = 0; i < arr.length; i++) {
+				price += arr[i].num*arr[i].price
 			}
 		}
+		for (let i = 0; i < arr.length; i++) {
+			arr[i].selected = this.data.select_all
+		}
 		this.setData({
-			num
+			carts:arr,
+			totalPrice:price
 		})
+	},
+	check(e){
+		var price=0
+		var len=0
+		var arr=this.data.carts
+		var allLen=arr.length
+		var index=e.currentTarget.dataset.id
+		arr[index].selected=!arr[index].selected
+		for(var i=0;i<arr.length;i++){
+			if(arr[i].selected==true){
+				len++
+				price+=arr[i].num*arr[i].price
+			}
+		}
+		// console.log(len,allLen)
+		if(len==allLen){
+			this.setData({
+				select_all:true,
+				totalPrice:price
+			})
+		}else{
+			this.setData({
+				select_all:false,
+				totalPrice:price
+			})
+		}
 	}
 })

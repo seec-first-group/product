@@ -30,9 +30,21 @@
   padding: 0;
   width: 60rpx;
   min-height: 24rpx;
-  line-height:24rpx;
+  line-height:45rpx;
   font-size:24rpx;
   background: #fff;
+}
+button::after {
+  border: none;
+}
+button {
+  background-color: transparent; 
+  padding-left: 0;
+  padding-right: 0; 
+  line-height:inherit;
+}
+button {
+  border-radius:0;
 }
 .title view:nth-child(2){
   text-align: center;

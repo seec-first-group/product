@@ -6,8 +6,8 @@
 		<text>编辑商品</text>
 	</view>
 
-	<view class="car_two" wx:for="{{carts}}">
-		<checkbox checked="{{item.selected}}"></checkbox>
+	<view class="car_two" wx:for="{{carts}}" wx:key="{{index}}">
+		<checkbox bindtap="check" checked="{{item.selected}}" data-id="{{index}}"></checkbox>
 		<image src="{{item.image}}"></image>
 		<view class="car_two_one">
 			<view class="car_two_thr">
@@ -22,13 +22,13 @@
 		</view>
 	</view>
 	<view class="car_three">
-		<view>
-			<checkbox bindtap='all'></checkbox>
+		<view class="car_tre">
+			<checkbox bindtap='all' checked="{{select_all}}"></checkbox>
 			<text class="all_car">全选</text>
 		</view>
 		<view class="car_t_al">
 			<view class="car_t_aq">
-				<text class="aly">总计: <text class="omf">￥{{num}}</text></text>
+				<text class="aly">总计: <text class="omf">￥{{totalPrice}}</text></text>
 				<text class="yun">不含运费</text>
 			</view>
 			<text class="car_t_ar">去结算</text>
