@@ -2,7 +2,7 @@
 
 
 <import src="/pages/common/icon/icon" />
-<view class="deta_wrap">
+<view class="deta_wrap" data-id="{{id}}">
 	<image src="{{img}}" class="img_one"></image>
 	<text class="deta_one">{{title}}</text>
 	<view class="deta_two">
@@ -52,12 +52,12 @@
 		<view class="model_tr">
 			<text>数量</text>
 			<view class="model_q">
-				<button>-</button>
+				<button bindtap="jian">-</button>
 				<text>{{numm}}</text>
 				<button bindtap='asd'>+</button>
 			</view>
 		</view>
-		<text class="model_rig">合计7200.00元</text>
+		<text class="model_rig">合计{{allP}}元</text>
 		
 	</view>
 	<text class="komm" bindtap="qued">确定</text>

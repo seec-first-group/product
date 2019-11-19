@@ -6,21 +6,21 @@
 	</view>
 	<view class="buy_t">
 		<view class="buy_two">
-			<image src="/img/7_13.png"></image>
+			<image src="{{img}}"></image>
 			<view class="buy_right">
 				<view class="buy_three">
-					<text>一对多(套餐1)</text>
-					<text>x1</text>
+					<text>{{title}}</text>
+					<text>x{{numm}}</text>
 				</view>
 				<text class="buy_g">规格：支付</text>
-				<text class="buy_g">￥4800.00/件</text>
+				<text class="buy_g">￥{{price}}/件</text>
 			</view>
 		</view>
 	</view>
 	<view>
 		<view class="buy_o">
 			<text class="buy_t_o">商品金额</text>
-			<text class="buy_t_q">￥4800.00</text>
+			<text class="buy_t_q">￥{{price}}</text>
 		</view>
 		<view class="buy_o">
 			<text class="buy_t_o">运费</text>
@@ -28,12 +28,12 @@
 		</view>
 		<view class="buy_o">
 			<text class="buy_t_o">订单总计</text>
-			<text class="buy_t_q">￥4800.00</text>
+			<text class="buy_t_q">￥{{allP}}</text>
 		</view>
 		<view class="buy_o">
 			<text class="buy_t_o">福报抵扣</text>
 			<text class="buy_t_q">￥0 ></text>
 		</view>
 	</view>
-	<text class="buy_p">微信支付￥4800.00</text>
+	<text class="buy_p">微信支付￥{{allP}}</text>
 </view>
