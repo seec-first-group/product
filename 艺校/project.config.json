@@ -4,18 +4,28 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
-	"appid": "wxc9e426552c2bfb37",
-	"projectname": "miniprogram-1",
+	"appid": "wxe5c5760102b12d02",
+	"projectname": "%E8%89%BA%E6%A0%A1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -31,13 +41,57 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "添加名片",
+					"pathName": "pages/creade/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/hemo/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "名片",
+					"pathName": "pages/card/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "名片",
+					"pathName": "pages/card/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加",
+					"pathName": "pages/creade/index",
+					"query": "",
+					"scene": null
+				}
+			]
 		}
 	}
 }
