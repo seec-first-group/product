@@ -1,21 +1,16 @@
 <!--index.wxml-->
-<<<<<<< HEAD
-<view class="container">
-  就和vi
-</view>
-=======
 <import src="/pages/common/icon/icon" />
 <import src="/pages/common/consu/consu" />
 <view class="shop_wrap">
 
 	<view class="shop_one">
-		<image src="/img/1_18.png"></image>
+		<image src="https://raw.githubusercontent.com/userLittleBoy/img/master/img/1_18.png"></image>
 	</view>
 
 
 	<view class="shop-two">
 		<view class="shop_t_o">
-			<image src="/img/1_03.png"></image>
+			<image src="https://raw.githubusercontent.com/userLittleBoy/img/master/img/1_03.png"></image>
 		</view>
 		<view class="shop_t_t">
 			<text>飞扬艺校</text>
@@ -44,4 +39,3 @@
 <text class="in_text">技术支持TEL400-0635-993</text>
 <template is="consu"></template>
 <template is="i_icon"></template>
->>>>>>> yyy

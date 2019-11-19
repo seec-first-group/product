@@ -4,7 +4,7 @@ Page({
 		carts: [{
 				id: 1,
 				title: '一对一套餐',
-				image: '/img/1_15.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/1_15.png',
 				num: 4,
 				price: 6666,
 				selected: false
@@ -12,7 +12,7 @@ Page({
 			{
 				id: 2,
 				title: '一对二套餐',
-				image: '/img/2_06.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/2_06.png',
 				num: 1,
 				price: 9599,
 				selected: false

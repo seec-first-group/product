@@ -7,7 +7,6 @@
     "pages/clock/index",
     "pages/dynamic/index",
     "pages/website/index",
-<<<<<<< HEAD
     "pages/detail/detail",
     "pages/brief/brief",
     "pages/news/news",
@@ -20,8 +19,7 @@
     "pages/shell/index",
     "pages/record/index",
     "pages/align/index",
-    "pages/alignT/index"
-=======
+    "pages/alignT/index",
     "pages/common/icon/icon",
     "pages/common/car/car",
     "pages/common/consu/consu",
@@ -29,7 +27,6 @@
     "pages/common/buy/buy",
     "pages/common/meda/meda",
     "pages/common/fixed/fixed"
->>>>>>> yyy
   ],
   "tabBar": {
     "color": "#000",

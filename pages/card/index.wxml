@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<<<<<<< HEAD
 <view id="container">
   <view class="top">
     <view class="pic">
@@ -129,8 +128,4 @@
   <view class="name-h1">
       技术支持TEL400-0635-993
   </view>
-=======
-<view class="container">
-  就和vi
->>>>>>> yyy
 </view>

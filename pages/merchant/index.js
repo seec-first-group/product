@@ -7,7 +7,7 @@ Page({
 		list: [{
 				id: 0,
 				title: '一对一套餐',
-				image: '/img/1_15.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/1_15.png',
 				num: 4,
 				price: 6666.00,
 				selected: false,
@@ -15,7 +15,7 @@ Page({
 			}, {
 				id: 1,
 				title: '一对二套餐',
-				image: '/img/2_08.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/2_08.png',
 				num: 4,
 				price: 6888.00,
 				selected: false,
@@ -24,7 +24,7 @@ Page({
 			{
 				id: 2,
 				title: '一对二套餐',
-				image: '/img/2_03.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/2_03.png',
 				num: 4,
 				price: 7853.00,
 				selected: false,
@@ -33,7 +33,7 @@ Page({
 			{
 				id: 3,
 				title: '一对二套餐',
-				image: '/img/3_05.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/3_05.png',
 				num: 4,
 				price: 2563.00,
 				selected: false,
@@ -42,7 +42,7 @@ Page({
 			{
 				id: 4,
 				title: '一对二套餐',
-				image: '/img/7_05.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/7_05.png',
 				num: 4,
 				price: 6855.00,
 				selected: false,
@@ -51,7 +51,7 @@ Page({
 			{
 				id: 5,
 				title: '一对二套餐',
-				image: '/img/7_05.png',
+				image: 'https://raw.githubusercontent.com/userLittleBoy/img/master/img/7_05.png',
 				num: 4,
 				price: 6855.00,
 				selected: false,

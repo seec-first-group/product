@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<<<<<<< HEAD
 <view class="content">
   <swiper indicator-dots="{{indicatorDots}}"
         autoplay="true" interval="5000" duration="500" indicator-dots="true">
@@ -87,8 +86,4 @@
         当代国际中三号楼
     </view>
   </view>
-=======
-<view class="container">
-  就和vi
->>>>>>> yyy
 </view>
