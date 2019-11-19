@@ -5,15 +5,22 @@
 	},
 	"setting": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"urlCheck": false,
 =======
 		"urlCheck": true,
 >>>>>>> meng
+=======
+		"urlCheck": false,
+>>>>>>> yyy
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> yyy
 		"coverView": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
@@ -25,7 +32,8 @@
 			"outputPath": ""
 		},
 		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false
+		"scopeDataCheck": false,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
@@ -82,27 +90,43 @@
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "首页",
 					"pathName": "pages/hemo/index",
+=======
+					"name": "pages/common/icon/icon",
+					"pathName": "pages/common/icon/icon",
+>>>>>>> yyy
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "名片",
 					"pathName": "pages/card/index",
+=======
+					"name": "pages/common/car/car",
+					"pathName": "pages/common/car/car",
+>>>>>>> yyy
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "名片",
 					"pathName": "pages/card/index",
+=======
+					"name": "pages/common/consu/consu",
+					"pathName": "pages/common/consu/consu",
+>>>>>>> yyy
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "添加",
 					"pathName": "pages/creade/index",
 					"query": "",
@@ -115,6 +139,31 @@
 					"name": "clock",
 					"pathName": "pages/clock/index",
 >>>>>>> meng
+=======
+					"name": "pages/common/details/details",
+					"pathName": "pages/common/details/details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/common/buy/buy",
+					"pathName": "pages/common/buy/buy",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/common/meda/meda",
+					"pathName": "pages/common/meda/meda",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/common/fixed/fixed",
+					"pathName": "pages/common/fixed/fixed",
+>>>>>>> yyy
 					"scene": null
 				}
 			]

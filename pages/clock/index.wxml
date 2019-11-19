@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+<<<<<<< HEAD
   <view class='btns'>
     <view bind:tap="ranking">排行榜</view>
     <view bind:tap="clock">打卡记录</view>
@@ -57,4 +58,7 @@
     </view>
  
   </view> -->
+=======
+  就和vi
+>>>>>>> yyy
 </view>

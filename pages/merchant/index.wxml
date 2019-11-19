@@ -1,4 +1,47 @@
 <!--index.wxml-->
+<<<<<<< HEAD
 <view class="container">
   就和vi
 </view>
+=======
+<import src="/pages/common/icon/icon" />
+<import src="/pages/common/consu/consu" />
+<view class="shop_wrap">
+
+	<view class="shop_one">
+		<image src="/img/1_18.png"></image>
+	</view>
+
+
+	<view class="shop-two">
+		<view class="shop_t_o">
+			<image src="/img/1_03.png"></image>
+		</view>
+		<view class="shop_t_t">
+			<text>飞扬艺校</text>
+			<text>认证企业</text>
+		</view>
+	</view>
+
+</view>
+<view class="shop_qq"></view>
+<view class="shop_un">
+
+	<view class="shop_in">
+		<text wx:for="{{['套餐','一对多套餐','一对一套餐']}}" wx:key="id" bindtap="onmouTap" data-index="{{index}}" class="tabs-item {{currentIndex==index?'selected':''}}">{{item}}</text>
+	</view>
+	<text bindtap="meda">三</text>
+</view>
+<view class="shop_en">
+
+	<view class="shop_yn" bindtap="details" wx:for="{{list}}" data-id="{{item.id}}" hidden="{{currentIndex==item.type}}">
+		<image src="{{item.image}}"></image>
+		<text>{{item.title}}</text>
+		<text class="shop_text_o">￥{{item.price}}/套</text>
+	</view>
+
+</view>
+<text class="in_text">技术支持TEL400-0635-993</text>
+<template is="consu"></template>
+<template is="i_icon"></template>
+>>>>>>> yyy
