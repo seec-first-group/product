@@ -1,8 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-<<<<<<< HEAD
-  就和vi
-=======
   <view class='btns'>
     <view bind:tap="ranking">排行榜</view>
     <view bind:tap="clock">打卡记录</view>
@@ -13,7 +10,7 @@
          <view class="section">
             <input name="input" placeholder="说说你的学习收获吧~" />
           </view>
-           <button formType="submit">Submit</button>
+           <button formType="submit">提交</button>
         <!-- <input type="text" placeholder="说说你的学习收获吧~" class="inp-holder" bindinput="formName" /> -->
     
       <view class="con">
@@ -60,5 +57,4 @@
     </view>
  
   </view> -->
->>>>>>> meng
 </view>

@@ -35,11 +35,5 @@ App({
   },
   globalData: {
     userInfo: null
-<<<<<<< HEAD
-	
   }
- 
-=======
-  }
->>>>>>> meng
 })

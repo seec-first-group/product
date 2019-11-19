@@ -1,5 +1,4 @@
 /**index.wxss**/
-<<<<<<< HEAD
 #container{
     width:100vw;
 }
@@ -190,10 +189,3 @@
     line-height:110rpx;
     background-color: #cdcdcd;
 }
-=======
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
->>>>>>> meng

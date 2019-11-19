@@ -4,13 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-<<<<<<< HEAD
-   
-  },
-  onLoad: function () {
-   
-  }
-=======
    showVal:true,
    img:'',
    name:"",
@@ -133,5 +126,4 @@ Page({
     });
   }
 
->>>>>>> meng
 })

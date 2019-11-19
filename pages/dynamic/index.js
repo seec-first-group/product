@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
 const app = getApp()
-<<<<<<< HEAD
 import url from "../../config/url.js"
 Page({
   data: {
@@ -27,14 +26,5 @@ Page({
     wx.setNavigationBarTitle({
         title: '动态'
     })
-=======
-
-Page({
-  data: {
-   
-  },
-  onLoad: function () {
-   
->>>>>>> meng
   }
 })

@@ -1,10 +1,4 @@
 /**index.wxss**/
-<<<<<<< HEAD
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-=======
 .container{
   width: 100vw;
   min-height:100vh;
@@ -145,5 +139,4 @@ button:not([size='mini']){
 .key-img{
   height: 100rpx;
   width: 100rpx;
->>>>>>> meng
 }
