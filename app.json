@@ -4,17 +4,23 @@
     "pages/merchant/index",
     "pages/clock/index",
     "pages/dynamic/index",
-    "pages/website/index"
-   
+    "pages/website/index",
+    "pages/common/icon/icon",
+    "pages/common/car/car",
+    "pages/common/consu/consu",
+    "pages/common/details/details",
+    "pages/common/buy/buy",
+    "pages/common/meda/meda",
+    "pages/common/fixed/fixed"
   ],
   "tabBar": {
-    "color":"#000",
-    "selectedColor":"#f00",
+    "color": "#000",
+    "selectedColor": "#f00",
     "list": [
       {
         "pagePath": "pages/card/index",
-       "iconPath":"img/tag/0.png",
-       "selectedIconPath":"img/tag/01.png",
+        "iconPath": "img/tag/0.png",
+        "selectedIconPath": "img/tag/01.png",
         "text": "名片"
       },
       {
@@ -46,7 +52,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
