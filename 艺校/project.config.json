@@ -24,7 +24,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
-	"appid": "wxe5c5760102b12d02",
+	"appid": "wxc9e426552c2bfb37",
 	"projectname": "%E8%89%BA%E6%A0%A1",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -54,41 +54,70 @@
 			"list": []
 		},
 		"miniprogram": {
+<<<<<<< HEAD
 			"current": -1,
 			"list": [
 				{
 					"id": -1,
 					"name": "添加名片",
 					"pathName": "pages/creade/index",
+=======
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "dynamic",
+					"pathName": "pages/dynamic/index",
+>>>>>>> 37f1da6945b8ee7e71462a017072d45b2161feb7
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "首页",
 					"pathName": "pages/hemo/index",
+=======
+					"name": "pages/website/index",
+					"pathName": "pages/website/index",
+>>>>>>> 37f1da6945b8ee7e71462a017072d45b2161feb7
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "名片",
 					"pathName": "pages/card/index",
+=======
+					"name": "pages/brief/brief",
+					"pathName": "pages/brief/brief",
+>>>>>>> 37f1da6945b8ee7e71462a017072d45b2161feb7
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "名片",
 					"pathName": "pages/card/index",
+=======
+					"name": "pages/map/map",
+					"pathName": "pages/map/map",
+>>>>>>> 37f1da6945b8ee7e71462a017072d45b2161feb7
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "添加",
 					"pathName": "pages/creade/index",
 					"query": "",
+=======
+					"name": "pages/website/index",
+					"pathName": "pages/website/index",
+>>>>>>> 37f1da6945b8ee7e71462a017072d45b2161feb7
 					"scene": null
 				}
 			]

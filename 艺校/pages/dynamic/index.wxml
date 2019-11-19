@@ -1,4 +1,39 @@
 <!--index.wxml-->
 <view class="container">
-  就和vi
+    <view class="list">
+        <view bindtap="goDetail" class="item" wx:for="{{list}}" wx:key="{{index}}" data-id="{{index}}">
+            <view class="img">
+                <image class="" src="{{item.user}}"/>
+            </view>
+            <view class="right">
+              <view class="title">
+                  <view>{{item.title}}</view>
+                  <view>
+                    {{item.type}}
+                  </view>
+                  <view class="share">
+                      分享
+                  </view>
+              </view>
+              <view class="con">
+                  <view class="tip">
+                      {{item.content}}
+                  </view>
+                  <view class="bigPic">
+                      <image class="" src="{{item.img}}"/>
+                  </view>
+              </view>
+              <view class="detail">
+                  <view>
+                      查看详情
+                  </view>
+                  
+              </view>
+              <view class="timeBox">
+                  <view class="time">{{item.time}}</view>
+                  <image src="../../img/1_11.png" alt=""/>
+              </view>
+            </view>
+        </view>
+    </view>
 </view>
