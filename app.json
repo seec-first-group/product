@@ -6,7 +6,14 @@
     "pages/merchant/index",
     "pages/clock/index",
     "pages/dynamic/index",
-    "pages/website/index"
+    "pages/website/index",
+    "pages/detail/detail",
+    "pages/brief/brief",
+    "pages/news/news",
+    "pages/moment/moment",
+    "pages/environment/environment",
+    "pages/subNews/subNews",
+    "pages/map/map"
    
   ],
   "tabBar": {
