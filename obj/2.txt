@@ -1,7 +1,0 @@
-qqqqqqq阿萨飒飒萨达 撒大大
-
-
-不同人操作同一个文件的同一行 无论先pull 再add commit 还是先 add commit 后 pull 都会出现冲突
-
-
-所以尽量避免冲突  就是先执行 pull   再执行 add . commit 
