@@ -2,7 +2,7 @@
 .container{
   width: 100vw;
   min-height:100vh;
-  background: #ccc;
+  background: rgb(244,244,244);
 }
 .btns{
   width: 90vw;

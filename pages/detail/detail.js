@@ -14,7 +14,7 @@ Page({
   onLoad: function (options) {
       // console.log(options.con)
       this.setData({
-        con:JSON.parse(options.con)
+        con:JSON.parse(decodeURIComponent(options.con))
       })
       wx.setNavigationBarTitle({
         title: '详情'

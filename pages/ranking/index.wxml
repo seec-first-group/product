@@ -1,7 +1,7 @@
 <!--pages/ranking/index.wxml-->
 <view class="container">
     <view class="content">
-        <image src="https://raw.githubusercontent.com/userLittleBoy/img/master/img/9_02.png" class="title-img"/>
+        <image src="http://m.qpic.cn/psb?/V11CTl4R3lqst3/uBj6drSmoXqHjcrg5jWnXmyM8XTzJbpNZ8Eg7umcLc0!/b/dLYAAAAAAAAA&bo=0AIxAQAAAAADF9A!&rf=viewer_4" class="title-img"/>
         <view class="con-list">
           <view class="list">
               <view class="item" wx:for="{{list}}" wx:key="index">

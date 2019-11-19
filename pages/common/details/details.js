@@ -9,16 +9,15 @@ Page({
 		numm: "1"
 	},
 	onLoad: function(options) {
-		var id = JSON.parse(options.id);
-		console.log(id);
+		var id =JSON.parse(decodeURIComponent(options.id));
+		// console.log(id);
 		let that = this;
 		that.setData({
 			title: id.title,
 			img: id.image,
 			num: id.num,
 			price: id.price,
-			selected: id.selected,
-			id: id
+			selected: id.selected
 		})
 		// console.log(that.data);
 
@@ -86,7 +85,7 @@ Page({
 	hna() {
 		var numm = this.data.numm;
 		var pric = this.data.price;
-		console.log(numm);
+		// console.log(numm);
 		var allP = numm * pric
 		this.setData({
 			allP

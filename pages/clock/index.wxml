@@ -26,7 +26,7 @@
   <view class="content" hidden="{{showVal}}">
       <view class="date">
           <view class="num">
-            <image src="https://raw.githubusercontent.com/userLittleBoy/img/master/img/8_03.png" />
+            <image src="http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4" />
           </view>
           <view class="dateNum">
               <view class="">林夕</view>

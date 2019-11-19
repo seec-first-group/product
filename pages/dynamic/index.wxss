@@ -25,8 +25,20 @@
   align-content: center;
   margin-bottom:8rpx;
 }
+.title button{
+  margin: 0;
+  padding: 0;
+  width: 60rpx;
+  min-height: 24rpx;
+  line-height:24rpx;
+  font-size:24rpx;
+  background: #fff;
+}
 .title view:nth-child(2){
+  text-align: center;
   padding: 2rpx 20rpx;
+  height: 42rpx;
+  line-height: 42rpx;
   border:1rpx solid #ccc;
   font-size: 28rpx;
   color:#ccc;

@@ -4,23 +4,11 @@
 		"ignore": []
 	},
 	"setting": {
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"urlCheck": false,
-=======
-		"urlCheck": true,
->>>>>>> meng
-=======
-		"urlCheck": false,
->>>>>>> yyy
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> yyy
 		"coverView": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
@@ -31,29 +19,17 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
 		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
 	"appid": "wxc9e426552c2bfb37",
-=======
-		"autoAudits": false,
-		"coverView": true,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
-		"checkSiteMap": false
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.9.3",
-	"appid": "wx218f06333dbdd6fa",
->>>>>>> meng
 	"projectname": "%E8%89%BA%E6%A0%A1",
+	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
+	"scripts": {},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -70,10 +46,8 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
-<<<<<<< HEAD
 		"gamePlugin": {
 			"current": -1,
 			"list": []
@@ -83,87 +57,16 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "添加名片",
-					"pathName": "pages/creade/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-<<<<<<< HEAD
-					"name": "首页",
-					"pathName": "pages/hemo/index",
-=======
-					"name": "pages/common/icon/icon",
-					"pathName": "pages/common/icon/icon",
->>>>>>> yyy
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-<<<<<<< HEAD
-					"name": "名片",
-					"pathName": "pages/card/index",
-=======
-					"name": "pages/common/car/car",
-					"pathName": "pages/common/car/car",
->>>>>>> yyy
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-<<<<<<< HEAD
-					"name": "名片",
-					"pathName": "pages/card/index",
-=======
-					"name": "pages/common/consu/consu",
-					"pathName": "pages/common/consu/consu",
->>>>>>> yyy
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-<<<<<<< HEAD
 					"name": "添加",
 					"pathName": "pages/creade/index",
 					"query": "",
-=======
-		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"id": -1,
-					"name": "clock",
-					"pathName": "pages/clock/index",
->>>>>>> meng
-=======
-					"name": "pages/common/details/details",
-					"pathName": "pages/common/details/details",
-					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/common/buy/buy",
-					"pathName": "pages/common/buy/buy",
+					"name": "pages/dynamic/index",
+					"pathName": "pages/dynamic/index",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/common/meda/meda",
-					"pathName": "pages/common/meda/meda",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/common/fixed/fixed",
-					"pathName": "pages/common/fixed/fixed",
->>>>>>> yyy
 					"scene": null
 				}
 			]

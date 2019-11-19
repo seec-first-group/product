@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
     <view class="list">
-        <view bindtap="goDetail" class="item" wx:for="{{list}}" wx:key="{{index}}" data-id="{{index}}">
+        <view class="item" wx:for="{{list}}" wx:key="{{index}}">
             <view class="img">
                 <image class="" src="{{item.user}}"/>
             </view>
@@ -11,11 +11,11 @@
                   <view>
                     {{item.type}}
                   </view>
-                  <view class="share">
+                  <button open-type="share">
                       分享
-                  </view>
+                  </button>
               </view>
-              <view class="con">
+              <view class="con"  bindtap="goDetail" data-id="{{index}}">
                   <view class="tip">
                       {{item.content}}
                   </view>

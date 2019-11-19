@@ -1,7 +1,7 @@
 <view class="car_wrap">
 	<view class="details_shop_one"><text>购物车</text></view>
 	<view class="car_one">
-		<image src="/img/1_15.png"></image>
+		<image src="http://m.qpic.cn/psb?/V11CTl4R3lqst3/8gYSHlG.xQShxwXKpwg.qlzFVwOeK5T2O7RedUxF31c!/b/dL4AAAAAAAAA&bo=3wHgAQAAAAADJz0!&rf=viewer_4"></image>
 		<text class="fo">来自招生办公室的特权折扣</text>
 		<text>编辑商品</text>
 	</view>
