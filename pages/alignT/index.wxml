@@ -1,0 +1,24 @@
+<view class="container">
+      <view class="content">
+      <view class="date">
+          <view class="num">
+             <image src="https://raw.githubusercontent.com/userLittleBoy/img/master/img/8_03.png" />
+          </view>
+          <view class="dateNum">
+              <view class="">林夕</view>
+              <view class="">2019-11-03 19:00</view>
+          </view>
+          <view class="zan">1</view>
+      </view>
+      <view class="con">
+       
+        {{keyss}}
+         <image src="{{key[0]}}"  class="key-img"/>
+      </view>
+      <view class="align">
+          <view class="">0人观看</view>
+          <view class="alignNum" bind:tap="align">重新打卡</view>
+          <view class="share">分享</view>
+      </view>
+    </view>
+</view>

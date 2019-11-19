@@ -3,6 +3,7 @@
 const app = getApp()
 
 Page({
+<<<<<<< HEAD
 	data: {
 		state: false, //收起没名片
 		red: true, //收藏
@@ -54,4 +55,12 @@ Page({
 			}
 		})
 	}
+=======
+  data: {
+   
+  },
+  onLoad: function () {
+   
+  }
+>>>>>>> meng
 })

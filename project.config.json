@@ -4,11 +4,16 @@
 		"ignore": []
 	},
 	"setting": {
+<<<<<<< HEAD
 		"urlCheck": false,
+=======
+		"urlCheck": true,
+>>>>>>> meng
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+<<<<<<< HEAD
 		"coverView": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
@@ -25,6 +30,17 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
 	"appid": "wxc9e426552c2bfb37",
+=======
+		"autoAudits": false,
+		"coverView": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkSiteMap": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.3",
+	"appid": "wx218f06333dbdd6fa",
+>>>>>>> meng
 	"projectname": "%E8%89%BA%E6%A0%A1",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -49,6 +65,7 @@
 			"currentL": -1,
 			"list": []
 		},
+<<<<<<< HEAD
 		"gamePlugin": {
 			"current": -1,
 			"list": []
@@ -89,6 +106,15 @@
 					"name": "添加",
 					"pathName": "pages/creade/index",
 					"query": "",
+=======
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "clock",
+					"pathName": "pages/clock/index",
+>>>>>>> meng
 					"scene": null
 				}
 			]

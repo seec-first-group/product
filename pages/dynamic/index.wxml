@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+<<<<<<< HEAD
     <view class="list">
         <view bindtap="goDetail" class="item" wx:for="{{list}}" wx:key="{{index}}" data-id="{{index}}">
             <view class="img">
@@ -36,4 +37,7 @@
             </view>
         </view>
     </view>
+=======
+  就和vi
+>>>>>>> meng
 </view>

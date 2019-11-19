@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
 }
+<<<<<<< HEAD
 .list{
   padding:20rpx;
 }
@@ -73,3 +74,5 @@
   width: 40rpx;
   height:35rpx;
 }
+=======
+>>>>>>> meng

@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
+<<<<<<< HEAD
 import url from "../../config/url.js"
 Page({
   data: {
@@ -61,5 +62,14 @@ Page({
     wx.navigateTo({
       url: '/pages/map/map'
     })
+=======
+
+Page({
+  data: {
+   
+  },
+  onLoad: function () {
+   
+>>>>>>> meng
   }
 })
