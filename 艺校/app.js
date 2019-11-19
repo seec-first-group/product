@@ -35,7 +35,11 @@ App({
   },
   globalData: {
     userInfo: null
+<<<<<<< HEAD
 	
   }
  
+=======
+  }
+>>>>>>> eadd7bed74e6665da45623bf9136baf21c20c7ad
 })

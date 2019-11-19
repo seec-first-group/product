@@ -1,13 +1,27 @@
 {
   "pages": [
+<<<<<<< HEAD
     "pages/hemo/index",
     "pages/creade/index",
+=======
+>>>>>>> eadd7bed74e6665da45623bf9136baf21c20c7ad
     "pages/card/index",
     "pages/merchant/index",
     "pages/clock/index",
     "pages/dynamic/index",
+<<<<<<< HEAD
     "pages/website/index"
    
+=======
+    "pages/website/index",
+    "pages/detail/detail",
+    "pages/brief/brief",
+    "pages/news/news",
+    "pages/moment/moment",
+    "pages/environment/environment",
+    "pages/subNews/subNews",
+    "pages/map/map"
+>>>>>>> eadd7bed74e6665da45623bf9136baf21c20c7ad
   ],
   "tabBar": {
     "color":"#000",
@@ -48,6 +62,10 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
+<<<<<<< HEAD
+=======
+    "navigationBarTitleText": "WeChat",
+>>>>>>> eadd7bed74e6665da45623bf9136baf21c20c7ad
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

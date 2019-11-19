@@ -1,10 +1,18 @@
 /**app.wxss**/
 .container {
+<<<<<<< HEAD
   height: 100%;
+=======
+  /* height: 100%;
+>>>>>>> eadd7bed74e6665da45623bf9136baf21c20c7ad
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 200rpx 0;
+<<<<<<< HEAD
   box-sizing: border-box;
+=======
+  box-sizing: border-box; */
+>>>>>>> eadd7bed74e6665da45623bf9136baf21c20c7ad
 } 
