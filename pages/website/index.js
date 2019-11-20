@@ -114,32 +114,32 @@ Page({
     marvellous:{
         part:[{
             title:'飞扬良好的学习环境及优质的教学质量',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'关爱老人，聊城飞扬艺术学校社会福利院慰问实践活动',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'国家一级演员王泽南莅临指导',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         }],
         all:[{
             title:'飞扬良好的学习环境及优质的教学质量',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'关爱老人，聊城飞扬艺术学校社会福利院慰问实践活动',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'国家一级演员王泽南莅临指导',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'飞扬良好的学习环境及优质的教学质量',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'关爱老人，聊城飞扬艺术学校社会福利院慰问实践活动',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         },{
             title:'国家一级演员王泽南莅临指导',
-            img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4'
+            img:'https://vjs.zencdn.net/v/oceans.mp4'
         }]
     },
     environment:{

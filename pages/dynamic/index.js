@@ -4,12 +4,13 @@ const app = getApp()
 // import url from "../../config/url.js"
 Page({
   data: {
+    video:'https://vjs.zencdn.net/v/oceans.mp4',
     list:[{
       user:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/996wN8TlzwC4l45BjljJOiT3whg5WQNzNNjxN4DTEzM!/b/dL8AAAAAAAAA&bo=TABMAAAAAAADFzI!&rf=viewer_4',
       title:'聊城飞扬艺术培训机构',
       type:'公司',
       content:'飞扬艺校邀请王泽南老师莅临演播现场',
-      img:'http://m.qpic.cn/psb?/V11CTl4R3lqst3/e96XZg*hcop91pQx5wkqx7iHBfg3xZYUe093LAVJHDg!/b/dLgAAAAAAAAA&bo=BgIGAgAAAAADFzI!&rf=viewer_4',
+      img:'https://vjs.zencdn.net/v/oceans.mp4',
       time:'2019-05-18 16:13:43',
       tip:'聊城飞扬艺术培训招生季！赶快来报名啊！',
       address:'聊城飞扬艺术培训机构',
@@ -65,9 +66,12 @@ Page({
   },
   goDetail(e){
     //   console.log(e.currentTarget.dataset.id)
-    wx.navigateTo({
-        url: '/pages/detail/detail?con='+encodeURIComponent(JSON.stringify(this.data.list[e.currentTarget.dataset.id]))
-    })
+      if(e.currentTarget.dataset.id!==0){
+        wx.navigateTo({
+            url: '/pages/detail/detail?con='+encodeURIComponent(JSON.stringify(this.data.list[e.currentTarget.dataset.id]))
+        })
+      }
+    
   },
   onLoad(){
       // wx.request({

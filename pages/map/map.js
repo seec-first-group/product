@@ -3,9 +3,9 @@ var bmap = require('../../utils/bmap-wx.min.js');
 var wxMarkerData = []; 
 Page({ 
     data: { 
-        markers: [], 
-        latitude: '', 
-        longitude: '', 
+        markers: [{latitude: 36.468657, longitude: 116.051305}], 
+        latitude: 36.468657, 
+        longitude: 116.051305, 
         rgcData: {} 
     },
     onLoad: function() { 
@@ -19,24 +19,24 @@ Page({
         }; 
         var success = function(data) { 
             console.log(data)
-            wxMarkerData = data.wxMarkerData; 
-            console.log(wxMarkerData)
-            that.setData({ 
-                markers: wxMarkerData 
-            }); 
-            that.setData({ 
-                latitude: wxMarkerData[0].latitude
-            }); 
-            that.setData({ 
-                longitude: wxMarkerData[0].longitude
-            }); 
+            // wxMarkerData = data.wxMarkerData; 
+            // console.log(wxMarkerData)
+            // that.setData({ 
+            //     markers: wxMarkerData 
+            // }); 
+            // that.setData({ 
+            //     latitude: wxMarkerData[0].latitude
+            // }); 
+            // that.setData({ 
+            //     longitude: wxMarkerData[0].longitude
+            // }); 
         } 
         // 发起regeocoding检索请求 
         BMap.regeocoding({ 
             fail: fail, 
             success: success, 
-            iconPath: '../../img/marker_red.png', 
-            iconTapPath: '../../img/marker_red.png' 
+            // iconPath: '../../img/marker_red.png', 
+            // iconTapPath: '../../img/marker_red.png' 
         }); 
     }
 

@@ -61,7 +61,7 @@ button {
 .item .img{
   width:100rpx;
   height:100rpx;
-  margin-right:40rpx;
+  margin-right:30rpx;
 }
 .item .img image{
   width:100%;
@@ -84,6 +84,9 @@ button {
   width:540rpx;
   height:540rpx;
   border-radius:5rpx;
+}
+.con .bigPic video{
+  width: 100%;
 }
 .detail{
   color:#3b4b6a;

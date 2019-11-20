@@ -20,7 +20,8 @@
                       {{item.content}}
                   </view>
                   <view class="bigPic">
-                      <image class="" src="{{item.img}}"/>
+                      <video wx:if="{{index==0}}" src="{{video}}"></video>
+                      <image wx:if="{{index!==0}}" class="" src="{{item.img}}"/>
                   </view>
               </view>
               <view class="detail">

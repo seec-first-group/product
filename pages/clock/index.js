@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+const RM = wx.getRecorderManager()
 Page({
   data: {
    showVal:true,
@@ -124,6 +124,30 @@ Page({
         }
       }
     });
-  }
+  },
+  //录音
+	voice() {
+		console.log("==开始==");
 
+		let option = {
+			format: 'mp3', //录音的格式，有aac和mp3两种   
+		}
+		RM.start(option);
+		RM.onStart(() => {
+			console.log('录音开始事件')
+		});
+	},
+	//结束播放
+	onEnd(){
+		console.log("==结束==")
+		RM.stop();
+		RM.onStop((res) => {
+		 // console.log(res)
+		  // res.tempFilePath;//是临时的文件地址
+		  // res.duration;//录音的时长
+		  // res.fileSize;//文件的大小
+		  this.data.url = res.tempFilePath;
+		})
+
+	}
 })

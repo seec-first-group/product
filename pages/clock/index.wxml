@@ -13,7 +13,7 @@
            <button formType="submit">提交</button>
         <!-- <input type="text" placeholder="说说你的学习收获吧~" class="inp-holder" bindinput="formName" /> -->
     
-      <view class="con">
+      <view class="con" bindtap="onEnd">
           <image src="{{img}}" catchTap="chooseImageTap" style="width:200rpx;height:200rpx" mode="aspectFit" class="img" />
       </view>
       <view class="choose">

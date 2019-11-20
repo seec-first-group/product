@@ -69,7 +69,7 @@ Page({
 	},
 	details(e) {
 		// console.log(e.currentTarget.dataset.id)
-		var id = this.data.arr[e.currentTarget.dataset.id];
+		var id = this.data.list[e.currentTarget.dataset.id];
 		// console.log(id)
 		wx.navigateTo({
 			url: "/pages/common/details/details?id=" + encodeURIComponent(JSON.stringify(id))
@@ -101,6 +101,5 @@ Page({
 	},
 	show(ev){
 		temp.onclick(ev)
-		
 	}
 })

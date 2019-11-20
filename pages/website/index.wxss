@@ -49,7 +49,7 @@ swiper{
   font-weight: 600;
   margin-bottom:10rpx;
 }
-.moment .video image{
+.moment .video video{
   width:100%;
 }
 .environment image{

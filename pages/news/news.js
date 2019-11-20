@@ -21,7 +21,7 @@ Page({
   },
   goSubNews(e){
     wx.navigateTo({
-      url: '/pages/subNews/subNews?con='+JSON.stringify(this.data.con.all[e.currentTarget.dataset.id])
+      url: '/pages/subNews/subNews?con='+encodeURIComponent(JSON.stringify(this.data.con.all[e.currentTarget.dataset.id]))
     })
   }
 })

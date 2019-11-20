@@ -6,19 +6,19 @@ Page({
         imgUrl:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/fzpMXs3aVi1jMQ4N22cNFgJ9Uhdwr*EcLhJllbaBTm8!/b/dLYAAAAAAAAA&bo=QgBDAAAAAAADByM!&rf=viewer_4",
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
-        zan:"3"
+        zan:"7"
       },
       {
         imgUrl:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/KHKqSRqT5MSNkcDIVhH1BDDolSxjkaPwvHyvSAyRuJs!/b/dFQBAAAAAAAA&bo=QgBEAAAAAAADFzQ!&rf=viewer_4",
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
-        zan:"2"
+        zan:"6"
       },
       {
         imgUrl:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qniEwo1aHzvEonwpJUNs5U*3w*I68vPZt28gAOfSZV4!/b/dFQBAAAAAAAA&bo=QgBCAAAAAAADFzI!&rf=viewer_4",
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
-        zan:"1"
+        zan:"4"
       }
     ],
     listArr:[
@@ -26,26 +26,80 @@ Page({
         num:1,
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
-        zan:"1"
+        zan:"3"
       },
       {
         num:2,
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
-        zan:"2"
+        zan:"3"
       },
       {
         num:3,
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
-        zan:"1"
+        zan:"3"
       },
       {
         num:4,
         img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
         name:"林夕",
         zan:"3"
-      }
+      },
+      {
+        num:5,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:6,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:7,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:8,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:9,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:10,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:11,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"3"
+      },
+      {
+        num:12,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"2"
+      },
+      {
+        num:13,
+        img:"http://m.qpic.cn/psb?/V11CTl4R3lqst3/qf9btmounP*8kzKnK53TvpqaDaLwtXAnkxnUaeVJ.wk!/b/dL8AAAAAAAAA&bo=WQBXAAAAAAABFz4!&rf=viewer_4",
+        name:"林夕",
+        zan:"0"
+      },
     ]
   },
   onLoad: function (options) {

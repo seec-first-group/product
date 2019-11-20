@@ -8,7 +8,7 @@
 		</view>
 	</view>
 	<view class="nav_center">
-		<view class="h1">2019-11-11 10:11:00 来自搜索</view>
+	<view class="h1">{{items}} 来自搜索</view>
 		<!-- 名片 -->
 		<view class="nav_list">
 			<view class="p"> </view>

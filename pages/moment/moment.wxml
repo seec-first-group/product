@@ -5,7 +5,7 @@
             {{item.title}}
         </view>
         <view class="video">
-            <image class="" src="{{item.img}}"/>            
+            <video class="" src="{{item.img}}" controls></video>
         </view>
     </view>
 </view>

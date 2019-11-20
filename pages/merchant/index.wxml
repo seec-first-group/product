@@ -23,7 +23,7 @@
 <view class="shop_un">
 
 	<view class="shop_in">
-		<text wx:for="{{['套餐','一对多套餐','一对一套餐']}}" wx:key="id" wx:key="{{index}}" bindtap="onmouTap" data-index="{{index}}" class="tabs-item {{currentIndex==index?'selected':''}}">{{item}}</text>
+		<text wx:for="{{['套餐','一对多套餐','一对一套餐']}}" wx:key="{{index}}" bindtap="onmouTap" data-index="{{index}}" class="tabs-item {{currentIndex==index?'selected':''}}">{{item}}</text>
 	</view>
 	<text bindtap="meda">三</text>
 </view>
